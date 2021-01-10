@@ -1,0 +1,25 @@
+/* centralização da imagem e botão */ 
+ header, main {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+/* largura , comprimento e font do botão  */
+button{
+    width: 150px;
+    height: 50px;
+    font-size: large;    
+}
+/* 2° cor do botão */
+button:hover{
+    background-color: rgb(238, 238, 240);
+}
+/* cor principal do botão */
+button{
+    background-color: white;
+}
+/*cor de fundo da pagina */
+body {
+   background-color: rgb(58, 60, 68);
+}
